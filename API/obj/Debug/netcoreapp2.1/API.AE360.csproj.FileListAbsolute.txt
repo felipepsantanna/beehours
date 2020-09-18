@@ -1,0 +1,14 @@
+C:\Users\felipepsantanna\source\repos\API.AE360\API.AE360\obj\Debug\netcoreapp2.1\API.AE360.csproj.CoreCompileInputs.cache
+C:\Users\felipepsantanna\source\repos\API.AE360\API.AE360\obj\Debug\netcoreapp2.1\API.AE360.RazorAssemblyInfo.cache
+C:\Users\felipepsantanna\source\repos\API.AE360\API.AE360\obj\Debug\netcoreapp2.1\API.AE360.RazorAssemblyInfo.cs
+C:\Users\felipepsantanna\source\repos\API.AE360\API.AE360\obj\Debug\netcoreapp2.1\API.AE360.AssemblyInfoInputs.cache
+C:\Users\felipepsantanna\source\repos\API.AE360\API.AE360\obj\Debug\netcoreapp2.1\API.AE360.AssemblyInfo.cs
+C:\Users\felipepsantanna\source\repos\API.AE360\API.AE360\bin\Debug\netcoreapp2.1\API.AE360.deps.json
+C:\Users\felipepsantanna\source\repos\API.AE360\API.AE360\bin\Debug\netcoreapp2.1\API.AE360.runtimeconfig.json
+C:\Users\felipepsantanna\source\repos\API.AE360\API.AE360\bin\Debug\netcoreapp2.1\API.AE360.runtimeconfig.dev.json
+C:\Users\felipepsantanna\source\repos\API.AE360\API.AE360\bin\Debug\netcoreapp2.1\API.AE360.dll
+C:\Users\felipepsantanna\source\repos\API.AE360\API.AE360\bin\Debug\netcoreapp2.1\API.AE360.pdb
+C:\Users\felipepsantanna\source\repos\API.AE360\API.AE360\obj\Debug\netcoreapp2.1\API.AE360.RazorTargetAssemblyInfo.cache
+C:\Users\felipepsantanna\source\repos\API.AE360\API.AE360\obj\Debug\netcoreapp2.1\API.AE360.dll
+C:\Users\felipepsantanna\source\repos\API.AE360\API.AE360\obj\Debug\netcoreapp2.1\API.AE360.pdb
+C:\Users\felipepsantanna\source\repos\API.AE360\API.AE360\obj\Debug\netcoreapp2.1\API.AE360.csprojAssemblyReference.cache
