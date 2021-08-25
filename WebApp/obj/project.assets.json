@@ -12588,9 +12588,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\felipepsantanna\\Documents\\GitHub\\Beehours\\WebApp\\WebApp.csproj",
-      "projectName": "WebApp",
-      "projectPath": "C:\\Users\\felipepsantanna\\Documents\\GitHub\\Beehours\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\felipepsantanna\\Documents\\GitHub\\Beehours\\WebApp\\WebApp-teste.csproj",
+      "projectName": "WebApp-teste",
+      "projectPath": "C:\\Users\\felipepsantanna\\Documents\\GitHub\\Beehours\\WebApp\\WebApp-teste.csproj",
       "packagesPath": "C:\\Users\\felipepsantanna\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\felipepsantanna\\Documents\\GitHub\\Beehours\\WebApp\\obj\\",
       "projectStyle": "PackageReference",

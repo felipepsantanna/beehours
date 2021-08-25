@@ -25,4 +25,11 @@ namespace API.Models
         public DateTime DataDeCadastro { get; set; }
         public NivelDoUsuario Nivel { get; set; }
     }
+
+
+    public class Login
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
+    }
 }

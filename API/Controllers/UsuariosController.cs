@@ -42,5 +42,18 @@ namespace API.Controllers
             return Json(_usuarioRepository.AddUsuario(value));
         }
 
+       [HttpGet("auth")]
+       public JsonResult Login(Login login)
+        {
+            return Json(_usuarioRepository.Login(login));
+        }
+
+        [HttpPatch]
+        public void Update(Usuario input)
+        {
+            //desenvolver
+            //return Json(_usuarioRepository.u)
+        }
+
     }
 }

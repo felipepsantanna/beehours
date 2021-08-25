@@ -11,6 +11,7 @@ namespace API.Data
         Usuario GetUsuario(int usuarioID);
         IList<Usuario> GetUsuarios();
         Usuario AddUsuario(Usuario usuario);
+        Usuario Login(Login login);
     }
 
 
@@ -26,6 +27,7 @@ namespace API.Data
                 usuario.DataDeCadastro = DateTime.Now;
                 dbSet.Add(usuario);
                 contexto.SaveChanges();
+                usuario.Password = "###";
                 return usuario;
             }
             catch (Exception ex)
@@ -48,6 +50,15 @@ namespace API.Data
             var usuarios = dbSet
               .Include(p => p.Nivel);
             return usuarios.ToList();
+        }
+
+        public Usuario Login(Login login)
+        {
+            var usuarios = dbSet
+                .Include(p => p.Nivel)
+                .Where(p => p.Email == login.Email && p.Password == login.Password)
+                .FirstOrDefault();
+            return usuarios;
         }
     }
 }

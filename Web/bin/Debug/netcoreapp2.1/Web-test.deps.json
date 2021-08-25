@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "3d650778e3500094e38cb51398f5ded5c197beae"
+    "signature": "d409737603d3fdd448dcb899dfffad83e25861f4"
   },
   "compilationOptions": {
     "defines": [
@@ -27,13 +27,25 @@
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.9"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.9",
+          "MvcScaffolding": "1.0.9"
         },
         "runtime": {
           "Web-test.dll": {}
         },
         "compile": {
           "Web-test.dll": {}
+        }
+      },
+      "EFCodeFirst/0.8.0": {
+        "runtime": {
+          "lib/EntityFramework.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.30319.0"
+          }
+        },
+        "compile": {
+          "lib/EntityFramework.dll": {}
         }
       },
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
@@ -358,6 +370,11 @@
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {}
         }
       },
+      "MvcScaffolding/1.0.9": {
+        "dependencies": {
+          "T4Scaffolding": "0.8.0"
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.0"
@@ -512,6 +529,11 @@
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "T4Scaffolding/0.8.0": {
+        "dependencies": {
+          "EFCodeFirst": "0.8.0"
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3462,6 +3484,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "EFCodeFirst/0.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3otCbjCHUtpXbW4Gl7olshMBMmEB2i25d5qJhGJu6rVQbWnfmD52Q4uPwMqR06CjZZQG+n/56DjikhDz/5pqDQ==",
+      "path": "efcodefirst/0.8.0",
+      "hashPath": "efcodefirst.0.8.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",
       "serviceable": true,
@@ -3581,6 +3610,13 @@
       "path": "microsoft.visualstudio.web.codegenerators.mvc/2.1.9",
       "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.2.1.9.nupkg.sha512"
     },
+    "MvcScaffolding/1.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Gz2oFiaXFBpuqtcRwoJV/5D++JgMu4cxuw9J/B/MQDYZMYDhewoPO96I3f+m4wBMy2Gko9i8gSG2JJNuXEAaUA==",
+      "path": "mvcscaffolding/1.0.9",
+      "hashPath": "mvcscaffolding.1.0.9.nupkg.sha512"
+    },
     "NETStandard.Library/2.0.3": {
       "type": "package",
       "serviceable": true,
@@ -3643,6 +3679,13 @@
       "sha512": "sha512-td7x21K8LalpjTWCzW/nQboQIFbq9i0r+PCyBBCdLWWnm4NBcdN18vpz/G9hCpUaCIfRL+ZxJNVTywlNlB1aLQ==",
       "path": "system.linq.parallel/4.3.0",
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
+    },
+    "T4Scaffolding/0.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1Pdkhin4ha/9H4BrDa1QziM/CUQ8VzzUZs/+IsgNDpGRM2ZLPuJldwvPnPn3d5vfNbmzVqDfFiywrMJVWvHqMA==",
+      "path": "t4scaffolding/0.8.0",
+      "hashPath": "t4scaffolding.0.8.0.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",
